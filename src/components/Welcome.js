@@ -1,21 +1,24 @@
 import React, {Component} from "react";
-//class Welcome extends Component {
-//    constructor(props) {
-//        super(props);
-//    }
-//    state = {  }
-//    render() { 
-//        return ( 
-//            <div>
-//                <h1>Class Component</h1>
-//            </div>
-//        );
-//    }
-//}
+{/*  CLASS COMPONENT
+    
+class Welcome extends Component {
+constructor(props) {
+        super(props);
+    }
+    state = {  }
+    render() { 
+        return ( 
+            <div>
+                <h1>Class Component</h1>
+            </div>
+        );
+    }
+}
+*/}
 
 //export default Welcome ;
 
-
+//CLASS COMPONENT WITH PROPS
 class Welcome extends Component {
     constructor(props) {
         super(props);
@@ -30,3 +33,6 @@ class Welcome extends Component {
     }
 }
 export default Welcome ;
+
+
+
